@@ -24,5 +24,91 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Absolute_Value(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Divide(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_00(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Multiply(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Dot(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Clear(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Minus(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Plus(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Power(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_Equals(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

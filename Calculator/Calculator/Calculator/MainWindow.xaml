@@ -5,8 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Calculator" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!--<Button Click="Button_Click">hello</Button> -->
+        <Label Name="Answer" Grid.Row="0" Grid.ColumnSpan="5" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">0</Label>
+
+        <Button Click="Button_Click_Absolute_Value" Grid.Column="0" Grid.Row="1">abs</Button>
+        <Button Click="Button_Click_7" Grid.Column="0" Grid.Row="2">7</Button>
+        <Button Click="Button_Click_4" Grid.Column="0" Grid.Row="3">4</Button>
+        <Button Click="Button_Click_1" Grid.Column="0" Grid.Row="4">1</Button>
+        <Button Click="Button_Click_0" Grid.Column="0" Grid.Row="5">0</Button>
+
+        <Button Click="Button_Click_Divide" Grid.Column="1" Grid.Row="1">/</Button>
+        <Button Click="Button_Click_8" Grid.Column="1" Grid.Row="2">8</Button>
+        <Button Click="Button_Click_5" Grid.Column="1" Grid.Row="3">5</Button>
+        <Button Click="Button_Click_2" Grid.Column="1" Grid.Row="4">2</Button>
+        <Button Click="Button_Click_00" Grid.Column="1" Grid.Row="5">00</Button>
+
+        <Button Click="Button_Click_Multiply" Grid.Column="2" Grid.Row="1">*</Button>
+        <Button Click="Button_Click_9" Grid.Column="2" Grid.Row="2">9</Button>
+        <Button Click="Button_Click_6" Grid.Column="2" Grid.Row="3">6</Button>
+        <Button Click="Button_Click_3" Grid.Column="2" Grid.Row="4">3</Button>
+        <Button Click="Button_Click_Dot" Grid.Column="2" Grid.Row="5">.</Button>
+
+        <Button Click="Button_Click_Clear" Grid.Column="3" Grid.Row="1">Clear</Button>
+        <Button Click="Button_Click_Minus" Grid.Column="3" Grid.Row="2">-</Button>
+        <Button Click="Button_Click_Plus" Grid.Column="3" Grid.Row="3">+</Button>
+        <Button Click="Button_Click_Power" Grid.Column="3" Grid.Row="4">^</Button>
+        <Button Click="Button_Click_Equals" Grid.Column="3" Grid.Row="5">=</Button>
     </Grid>
 </Window>
